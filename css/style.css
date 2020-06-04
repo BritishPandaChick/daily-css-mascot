@@ -1,0 +1,142 @@
+body {
+  background-color: green;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 8%;
+  background: none;
+  width: 600px;
+  height: 420px;
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  border-radius: 50%;
+  background-color: #FFF;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: #FFF;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.ear-left {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  left: 2%;
+  top: 3%;
+  background: #000;
+  border-radius: 50%;
+}
+
+.ear-right {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  right: 2%;
+  top: 3%;
+  background: #000;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.left-glass {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  left: 19%;
+  top: 27%;
+  background: transparent;
+  border: 4px solid #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eye-left {
+  position: absolute;
+  background-color: #000;
+  width: 10%;
+  height: 13%;
+  top: 35%;
+  left: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.right-glass {
+  position: absolute;
+  width: 20%;
+  height: 25%;
+  right: 19%;
+  top: 27%;
+  background: transparent;
+  border: 4px solid #000;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eye-right {
+  position: absolute;
+  background-color: #000;
+  width: 10%;
+  height: 13%;
+  top: 35%;
+  right: 25%;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.pupil {
+  position: absolute;
+  width: 38%;
+  height: 40%;
+  top: 31%;
+  left: 33%;
+  border-radius: 50%;
+  background: #FFF;
+}
+
+.glass-line {
+  position:absolute;
+  left:38%;
+  width:24%;
+  height: 25%;
+  border-radius:100%;
+  border-top:solid 8px #000;
+  bottom: 155px;
+  z-index: 3;
+}
+
+.nose {
+  position: absolute;
+  background: #000;
+  width: 30%;
+  height: 20%;
+  left: 35%;
+  top: 55%;
+  border-radius: 50%;
+  z-index: 4;
+}
+
+.mouth {
+  position:absolute;
+  left:23%;
+  width:55%;
+  height: 25%;
+  border-radius:100%;
+  border-bottom:solid 8px #000;
+  bottom: 60px;
+  z-index: 3;
+}  
